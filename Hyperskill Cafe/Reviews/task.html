@@ -1,0 +1,130 @@
+<html><body><h5 id="description">Description</h5>
+<p>In this stage, we will design the <code class="java">reviews</code> section. It should contain comments and reviews from clients. So far, you have been using HTML and CSS to render the content on the website. Now, you need to add JavaScript into the mix and render new comments and reviews dynamically. Add three rendered reviews (see Example) and allow new ones under the <code class="java">&lt;form&gt;</code> and <code class="java">&lt;input&gt;</code> tags. For the <code class="java">&lt;form&gt;</code>, you can use the <a href="https://getbootstrap.com/docs/5.0/forms/overview/" rel="noopener noreferrer nofollow" target="_blank">Bootstrap form</a> component.</p>
+<p>Once visitors submit the form, a new review should be posted on the website. You don't have to display the reviews permanently; they can be removed when you refresh the page. This means that you need to use a <code class="java">submit</code> event in the JavaScript <code class="java">action listener</code>.</p>
+<p>When using the <code class="java">submit</code> event,  don't forget to use <code class="java">event.preventDefault()</code><a href="https://www.w3schools.com/jsref/event_preventdefault.asp" rel="noopener noreferrer nofollow" target="_blank"> function to prevent the page from refreshing</a>. Otherwise, the tests will not work properly.</p>
+<p>To select input tags from documents in your script file with ease, add these IDs to the following tags:</p>
+<pre><code class="java">Reviews Row Div:   id = "reviewsRow" 
+
+Review Title Input: id="reviewTitle"
+
+Review Text Input: id="reviewText"
+
+Review Name Input: id="reviewName"
+
+Review Form: id="reviewForm"
+
+Review Button: id="reviewButton"</code></pre>
+<p>Put the form component inside the <a href="https://getbootstrap.com/docs/5.0/components/collapse/" rel="noopener noreferrer nofollow" target="_blank">collapse component</a> from Bootstrap so that the form can be toggled on or off.</p>
+<p>Just like the image gallery before, nest the comments in a card component with a grid system.</p>
+<p>Create a separate script.js and write your code there and then, link the JavaScript file to your HTML file using a <code class="java">&lt;script&gt;</code> tag.</p>
+<p>Use the <code class="java">&lt;blockquote&gt;</code> <a href="https://getbootstrap.com/docs/5.0/components/card/#header-and-footer" rel="noopener noreferrer nofollow" style="font-size: inherit;" target="_blank">tag</a> for reviews of the customers.</p>
+<p>If the users don't enter a name, post the review under <code class="java">Anonymous</code>.</p>
+<p>Also, if the users don't enter a title or a comment, the browser must show that those fields are <code class="java">required</code>. </p>
+<p>Keep in mind that there is no limitation on the number of reviews that a user can post.</p>
+<p>In this stage, we are working on the <code class="java">reviews</code> ID.</p>
+<p>The layout of the HTML body for this stage should follow the structure below:</p>
+<pre><code class="java">&lt;body&gt;
+&lt;header.../&gt;
+&lt;main&gt;
+    &lt;div (container)&gt;
+        &lt;div id=home.../&gt;
+        &lt;div id=about (container)/&gt;
+        &lt;div id=products (container)/&gt;
+        &lt;div id=reviews (container)&gt;
+            &lt;h2.../&gt;
+            &lt;div (wrapper)&gt;
+                &lt;button.../&gt;
+            &lt;/div&gt;
+            &lt;div (collapse) id=collapseReview&gt;
+                &lt;div (wrapper)&gt;
+                &lt;div (card)&gt;
+                        &lt;form&gt;
+                            &lt;div&gt;
+                                &lt;label.../&gt;
+                                &lt;input id=reviewTitle/&gt;
+                            &lt;/div&gt;
+                            &lt;div&gt;
+                                &lt;label.../&gt;
+                                &lt;input id=reviewText/&gt;
+                            &lt;/div&gt;
+                            &lt;div&gt;
+                                &lt;label.../&gt;
+                                &lt;input id=reviewName/&gt;
+                            &lt;/div&gt;
+                            &lt;div&gt;
+                                &lt;button id=reviewButton /&gt;
+                            &lt;/div&gt;
+                        &lt;/form&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div (wrapper)&gt;
+                &lt;div id=reviewsRow (row)&gt;
+                    &lt;div (col)&gt;
+                        &lt;div (card)&gt;
+                            &lt;div (card-body)&gt;
+                                &lt;h4 (card-title)/&gt;
+                                &lt;blockquote.../&gt;
+                                    &lt;p.../&gt;
+                                    &lt;footer.../&gt;
+                                &lt;/blockquote&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div (col)&gt;
+                        &lt;div (card)&gt;
+                            &lt;div (card-body)&gt;
+                                &lt;h4 (card-title)/&gt;
+                                &lt;blockquote.../&gt;
+                                    &lt;p.../&gt;
+                                    &lt;footer.../&gt;
+                                &lt;/blockquote&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                    &lt;div (col)&gt;
+                        &lt;div (card)&gt;
+                            &lt;div (card-body)&gt;
+                                &lt;h4 (card-title)/&gt;
+                                &lt;blockquote.../&gt;
+                                    &lt;p.../&gt;
+                                    &lt;footer.../&gt;
+                                &lt;/blockquote&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/main&gt;
+&lt;script (Bootstrap)/&gt;
+&lt;script (JS)/&gt;
+&lt;/body&gt;</code></pre>
+<h5 id="objectives">Objectives</h5>
+<p>In this stage, your website should contain:</p>
+<ol>
+<li>A <code class="java">&lt;h2&gt;</code> tag with <code class="java">Reviews From Our Customers</code>;</li>
+<li>A form for writing new reviews;</li>
+<li>A submit button;</li>
+<li>A collapse area with a button to open/close the form;</li>
+<li>New reviews wrapped in the card component;</li>
+<li>Three initially rendered, static reviews;</li>
+<li>New dynamically rendered reviews;</li>
+<li>New <code class="java">script.js</code> file;</li>
+<li>A <code class="java">&lt;script&gt;</code> tag for your JS file;</li>
+<li>Fallback <code class="java">Anonymous</code> value under empty name input;</li>
+<li>A <code class="java">required</code> attribute for title and comment inputs;</li>
+<li>Correct ID attributes for necessary tags.</li>
+</ol>
+<h5 id="examples">Examples</h5>
+<p><strong>Example 1: </strong><em>reviews on a large screen</em></p>
+<p><img alt="" height="313" name="Ekran Resmi 2021-09-18 14.19.49.png" src="https://ucarecdn.com/169a682c-36e9-463d-886b-f798f285cf1f/" width="972"/></p>
+<p><strong>Example 2: </strong><em>a click on the "Add Review" button</em></p>
+<p><img alt="" height="722" name="Ekran Resmi 2021-09-18 14.21.37.png" src="https://ucarecdn.com/6012c9ac-ec56-41a4-a3da-8d960d11e1da/" width="1456"/></p>
+<p><strong>Example 3: </strong><em>the form is submitted;</em><em> the review is added</em></p>
+<p><img alt="" height="966" name="Ekran Resmi 2021-09-18 14.22.37.png" src="https://ucarecdn.com/3f3e40d6-b4f8-483f-a146-d123bc92e028/" width="1468"/></p>
+<p><strong>Example 4: </strong><em>when users do not enter a name, post the review under "Anonymous" </em></p>
+<p><img alt="" height="950" name="Ekran Resmi 2021-09-18 14.23.15.png" src="https://ucarecdn.com/1503e7ef-0b55-4406-8f43-674aff69d44b/" width="1452"/></p>
+<p><strong>Example 5: </strong><em>when users do not enter title or comment, the browser must show that they are required</em></p>
+<p><img alt="" height="720" name="Ekran Resmi 2021-09-18 14.24.08.png" src="https://ucarecdn.com/c8afefd1-64fe-4dd7-96e5-60a583845be0/" width="1440"/></p>
+<p><strong>Example 6: </strong><em>reviews on a smaller screen</em></p>
+<p><img alt="" height="671" name="reviews_sm.png" src="https://ucarecdn.com/2d7aabe5-f3ce-4fad-84e8-234887c0149b/" width="455"/></p></body></html>

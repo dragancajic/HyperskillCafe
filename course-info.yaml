@@ -1,0 +1,13 @@
+type: hyperskill
+title: Hyperskill Cafe
+language: English
+summary: We know that you're planning to open a new place on the block. The place
+  craves for a good website. Let's make it happen! The website will have multiple
+  pages such as home, about, contact, and a navigation bar. Don't forget to make your
+  website responsive so that users with various devices have no trouble accessing
+  it. To make the interface stylish, we will use a front-end library called Bootstrap.<br/><br/>Learn
+  more at <a href="https://hyperskill.org/projects/210?utm_source=ide&utm_medium=ide&utm_campaign=ide&utm_content=project-card">https://hyperskill.org/projects/210</a>
+programming_language: JavaScript
+content:
+- Hyperskill Cafe
+mode: Study

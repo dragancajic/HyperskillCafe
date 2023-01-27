@@ -1,0 +1,220 @@
+hyperskill_project:
+  id: 210
+  ide_files: https://stepik.org/media/attachments/lesson/591514/additional_files.json
+  is_template_based: false
+  use_ide: true
+update_date: Fri, 27 Jan 2023 22:13:03 UTC
+stages:
+- id: 1050
+  step: 15928
+  is_completed: false
+- id: 1051
+  step: 15929
+  is_completed: false
+- id: 1052
+  step: 15930
+  is_completed: false
+- id: 1053
+  step: 15931
+  is_completed: false
+- id: 1054
+  step: 15932
+  is_completed: false
+- id: 1055
+  step: 15933
+  is_completed: false
+- id: 1056
+  step: 15934
+  is_completed: false
+topics:
+  0:
+  - title: Introduction to Node.js
+    theory_id: 12691
+  - title: IDE
+    theory_id: 10996
+  - title: Introduction to Operating systems
+    theory_id: 9704
+  - title: World Wide Web
+    theory_id: 6633
+  - title: HyperText Transfer Protocol
+    theory_id: 6569
+  - title: HTTP URL
+    theory_id: 6740
+  - title: Block-level elements
+    theory_id: 7271
+  - title: Inline elements
+    theory_id: 7518
+  - title: What is CSS
+    theory_id: 7678
+  - title: Connecting CSS to HTML
+    theory_id: 7418
+  - title: HTML attributes id and class
+    theory_id: 7527
+  - title: DOM
+    theory_id: 8635
+  - title: The lang attribute
+    theory_id: 12212
+  - title: Computer programming
+    theory_id: 8739
+  - title: Command line overview
+    theory_id: 8977
+  - title: Parameters and Options
+    theory_id: 9746
+  - title: Web development
+    theory_id: 13931
+  - title: Introduction to JavaScript
+    theory_id: 8016
+  - title: HTML basics
+    theory_id: 6434
+  - title: Libraries
+    theory_id: 8504
+  - title: Tags and Attributes
+    theory_id: 7536
+  - title: HTML page structure
+    theory_id: 6491
+  - title: Comments
+    theory_id: 7502
+  - title: Links
+    theory_id: 11834
+  - title: WebStorm
+    theory_id: 9492
+  - title: Code style
+    theory_id: 11469
+  1:
+  - title: Binary numbers
+    theory_id: 5544
+  - title: Hexadecimal numbers
+    theory_id: 8788
+  - title: Interface elements
+    theory_id: 15253
+  - title: Colors
+    theory_id: 14914
+  - title: Basic syntax
+    theory_id: 7722
+  - title: Comments
+    theory_id: 7730
+  - title: Relative units
+    theory_id: 10671
+  - title: Absolute units
+    theory_id: 10605
+  - title: CSS Selectors
+    theory_id: 7738
+  - title: Introduction to Flexbox
+    theory_id: 11760
+  - title: Orientation and Display order
+    theory_id: 11768
+  - title: Flexibility, growth and contraction ratio
+    theory_id: 18859
+  - title: Axis alignment
+    theory_id: 11784
+  - title: Images
+    theory_id: 9237
+  - title: Position
+    theory_id: 11581
+  - title: Float
+    theory_id: 12697
+  - title: Clear
+    theory_id: 12705
+  - title: Margin and Padding
+    theory_id: 8346
+  - title: Positioning properties
+    theory_id: 8204
+  - title: Width and Height
+    theory_id: 8325
+  - title: Border
+    theory_id: 8355
+  - title: Text Alignment
+    theory_id: 11589
+  - title: line-height
+    theory_id: 11153
+  - title: RGB
+    theory_id: 8819
+  - title: Colors in CSS
+    theory_id: 7973
+  - title: Background
+    theory_id: 11670
+  2:
+  - title: Google Fonts
+    theory_id: 7844
+  - title: z-index
+    theory_id: 11161
+  3:
+  - title: Intro to HTML forms
+    theory_id: 6560
+  - title: Pseudo-classes
+    theory_id: 9762
+  - title: Intro to Lists
+    theory_id: 8178
+  4:
+  - title: Comments
+    theory_id: 8170
+  - title: Connecting JavaScript to HTML
+    theory_id: 7510
+  - title: JavaScript Code Style
+    theory_id: 9916
+  - title: Naming variables
+    theory_id: 8364
+  - title: Overview of the basic program
+    theory_id: 8154
+  - title: Multi-line programs
+    theory_id: 8162
+  - title: Variables
+    theory_id: 8186
+  - title: Strings and Numbers
+    theory_id: 8194
+  - title: Arithmetic operators
+    theory_id: 8372
+  - title: Functions
+    theory_id: 8388
+  - title: Defining functions
+    theory_id: 24012
+  - title: Builtin JS Functions
+    theory_id: 24019
+  - title: setTimeout and setInterval
+    theory_id: 9680
+  - title: Anonymous Function
+    theory_id: 10865
+  - title: Arrow Functions
+    theory_id: 8455
+  - title: Boolean and Logical Operators
+    theory_id: 8471
+  - title: Scope of variables
+    theory_id: 9771
+  - title: Intro to DOM events
+    theory_id: 10857
+  - title: Modules
+    theory_id: 9963
+  - title: JSON
+    theory_id: 6854
+  - title: Introduction to Objects
+    theory_id: 8588
+  - title: Null and Undefined
+    theory_id: 8564
+  - title: Type Conversion
+    theory_id: 8380
+  - title: Comparison Operators
+    theory_id: 8580
+  - title: Conditional Operators
+    theory_id: 8889
+  - title: DOM methods
+    theory_id: 8662
+  - title: ClassList
+    theory_id: 11653
+  - title: Window Object
+    theory_id: 9382
+  - title: Introduction to String
+    theory_id: 17747
+  - title: Template literals
+    theory_id: 8731
+  5:
+  - title: Attribute selectors and Universal selector
+    theory_id: 12228
+  - title: Overflow
+    theory_id: 12454
+  6:
+  - title: Transform
+    theory_id: 12204
+  - title: Introduction to Linux
+    theory_id: 9526
+  - title: Starting with Git
+    theory_id: 10894
